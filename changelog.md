@@ -21,12 +21,12 @@ Turned `STRICT_ADDRESSING` to `false` in `aquaticus1.2.1/plug_uFldMessageHandler
 
 A LOT of encapsulation to member functions, especially getting data from `info_buffer`, and managing the attacker (see list below). `onRunState()` is now slightly easier to read.
 	
-1. void updateAllList(void)
-1. int updateNavXY(void)
-1. void updateOpponentList(void)
-1. void checkToUnsetAttacker(void)
-1. void publishNavXY(void)
-1. void updateCovered(void)
+1. `void updateAllList(void)`
+1. `int updateNavXY(void)`
+1. `void updateOpponentList(void)`
+1. `void checkToUnsetAttacker(void)`
+1. `void publishNavXY(void)`
+1. `void updateCovered(void)`
 
 # Minor changes
 
@@ -50,8 +50,8 @@ Removed redundant or unused header `#include` macros in `BHV_Defense_Multi.cpp` 
 
 Changed SHORE_IP to be shoreside computer ip in:
 
-1. launch_mokai.sh
-1. launch_heron.sh
+1. `launch_mokai.sh`
+1. `launch_heron.sh`
 
 (Change IP back when testing shoreside on a different computer)
 
