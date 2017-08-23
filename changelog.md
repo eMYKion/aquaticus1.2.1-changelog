@@ -40,9 +40,9 @@ Heron `m_priority` defense is now based on "standard english dictionary" order (
 
 from `BHV_Defense_Multi.h`:
 
-	1. Got rid of `m_self`.
-	2. Got rid of `m_curr_node_report`.
-	3. Got rid of `m_points`.
+	l. Got rid of `m_self`.
+	l. Got rid of `m_curr_node_report`.
+	l. Got rid of `m_points`.
 
 Removed redundant or unused header `#include` macros in `BHV_Defense_Multi.cpp` and `BHV_Defense_Multi.h`.
 
