@@ -2,8 +2,8 @@
 
 The relevant folders for this changelog from moos-ivp-aquaticus inlcude:
 
-	1. moos-ivp-aquaticus/trunk/missions/aquaticus1.2.1/
-	2. moos-ivp-aquaticus/trunk/trunk/src/lib_behaviors-aq/
+1. moos-ivp-aquaticus/trunk/missions/aquaticus1.2.1/
+1. moos-ivp-aquaticus/trunk/trunk/src/lib_behaviors-aq/
 
 # Major changes
 
@@ -21,12 +21,12 @@ Turned `STRICT_ADDRESSING` to `false` in `aquaticus1.2.1/plug_uFldMessageHandler
 
 A LOT of encapsulation to member functions, especially getting data from `info_buffer`, and managing the attacker (see list below). `onRunState()` is now slightly easier to read.
 	
-	1. void updateAllList(void)
-	2. int updateNavXY(void)
-	3. void updateOpponentList(void)
-	4. void checkToUnsetAttacker(void)
-	5. void publishNavXY(void)
-	6. void updateCovered(void)
+1. void updateAllList(void)
+1. int updateNavXY(void)
+1. void updateOpponentList(void)
+1. void checkToUnsetAttacker(void)
+1. void publishNavXY(void)
+1. void updateCovered(void)
 
 # Minor changes
 
@@ -40,9 +40,9 @@ Heron `m_priority` defense is now based on "standard english dictionary" order (
 
 from `BHV_Defense_Multi.h`:
 
-	l. Got rid of `m_self`.
-	l. Got rid of `m_curr_node_report`.
-	l. Got rid of `m_points`.
+1. Got rid of `m_self`.
+1. Got rid of `m_curr_node_report`.
+1. Got rid of `m_points`.
 
 Removed redundant or unused header `#include` macros in `BHV_Defense_Multi.cpp` and `BHV_Defense_Multi.h`.
 
@@ -50,15 +50,15 @@ Removed redundant or unused header `#include` macros in `BHV_Defense_Multi.cpp` 
 
 Changed SHORE_IP to be shoreside computer ip in:
 
-	1. launch_mokai.sh
-	2. launch_heron.sh
+1. launch_mokai.sh
+1. launch_heron.sh
 
 (Change IP back when testing shoreside on a different computer)
 
 # Unfixed bugs:
 
-	1. Xbox controller connectivity issues, sometimes doesn't respond mid-game
-	2. Red herons aren't moving
-	3. Red and blue buttons aren't control toggles, once on, they stay on; meaning you can't unselect one team's mokai and you end up controlling both teams at once if you select another button
+1. Xbox controller connectivity issues, sometimes doesn't respond mid-game
+1. Red herons aren't moving
+1. Red and blue buttons aren't control toggles, once on, they stay on; meaning you can't unselect one team's mokai and you end up controlling both teams at once if you select another button
 
 Otherwise the defense logic appears to be working when red mokais are led into the blue field.
