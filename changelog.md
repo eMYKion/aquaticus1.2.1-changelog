@@ -1,5 +1,10 @@
 # August 2017 changelog for aquaticus1.2.1 and BHV_Defense_Multi
 
+The relevant folders for this changelog from moos-ivp-aquaticus inlcude:
+
+	1. moos-ivp-aquaticus/trunk/missions/aquaticus1.2.1
+	2. moos-ivp-aquaticus/trunk/trunk/src/lib_behaviors-aq
+
 Changed SHORE_IP to be shoreside computer ip in:
 
 	1. launch_mokai.sh
