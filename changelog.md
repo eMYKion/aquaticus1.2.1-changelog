@@ -38,7 +38,7 @@ Got rid of `BHV_Defense_Multi::getOppCoords()` (moved code sections to member fu
 
 Heron `m_priority` defense is now based on "standard english dictionary" order (using `std::string::compare()`), rather than sum of character values.
 
-from `BHV_Defense_Multi.h`:
+from `BHV_Defense_Multi.h` and `BHV_Defense_Multi.cpp`:
 
 1. Got rid of `m_self`.
 1. Got rid of `m_curr_node_report`.
