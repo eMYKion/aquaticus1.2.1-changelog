@@ -32,7 +32,7 @@ A LOT of encapsulation to member functions, especially getting data from `info_b
 
 Near the bottom of `BHV_Defense_Multi::onRunState()`, fixed code syntax that previously had two nested for loops with the same iterator name `i` (now `i` and `j`).
 
-Replaced every bracketed indexing of a vector with the rightful `at()`
+Replaced every bracketed indexing of a `std::vector` with the rightful `at()`
 
 Got rid of `BHV_Defense_Multi::getOppCoords()` (moved code sections to member functions above).
 
