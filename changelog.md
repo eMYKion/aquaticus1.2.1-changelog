@@ -9,7 +9,7 @@ The relevant folders for this changelog from moos-ivp-aquaticus inlcude:
 
 In `BHV_Defense_Multi.cpp`, replaced implementation for `NODE_REPORT` with `NODE_MESSAGE` completely.
 
-Created a `vehicle` struct (`string name`, `string team`, `double nav_x`, `double nav_y`).
+Created a `vehicle` struct (`std::string name`, `std::string team`, `double nav_x`, `double nav_y`).
 
 `m_opp_list` is a vector of vehicle structs now, not of `NodeReport`(s).
 
