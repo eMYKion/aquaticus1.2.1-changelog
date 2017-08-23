@@ -21,12 +21,12 @@ Turned `STRICT_ADDRESSING` to `false` in `aquaticus1.2.1/plug_uFldMessageHandler
 
 A LOT of encapsulation to member functions, especially getting data from `info_buffer`, and managing the attacker (see list below). `onRunState()` is now slightly easier to read.
 	
-1. `void updateAllList(void)`
+1. `int updateAllList(void)`
 1. `int updateNavXY(void)`
 1. `void updateOpponentList(void)`
 1. `void checkToUnsetAttacker(void)`
 1. `void publishNavXY(void)`
-1. `void updateCovered(void)`
+1. `int updateCovered(void)`
 
 # Minor changes
 
@@ -46,6 +46,8 @@ from `BHV_Defense_Multi.h` and `BHV_Defense_Multi.cpp`:
 
 Removed redundant or unused header `#include` macros in `BHV_Defense_Multi.cpp` and `BHV_Defense_Multi.h`.
 
+Spacing and tab indentation.
+
 # Configuration changes
 
 Changed SHORE_IP to be shoreside computer ip in:
@@ -58,7 +60,8 @@ Changed SHORE_IP to be shoreside computer ip in:
 # Unfixed bugs:
 
 1. Xbox controller connectivity issues, sometimes doesn't respond mid-game
-1. Red herons aren't moving
-1. Red and blue buttons aren't control toggles, once on, they stay on; meaning you can't unselect one team's mokai and you end up controlling both teams at once if you select another button
+1. xbox controller doesn't register when plugged into kenya MacOSX (all 4 lights on instead of just player1 light)
+1. Red herons aren't moving; have MOOS manual override switched on the entire game
+1. Red and blue buttons aren't control toggles, once on, they stay on; meaning you can't unselect one team's mokai and you end up controlling both teams at once if you press another button
 
-Otherwise the defense logic appears to be working when red mokais are led into the blue field.
+Otherwise the defense logic appears to be working when red mokais are led into the blue field, but herons seem to be rarely deploying tag "circles".
