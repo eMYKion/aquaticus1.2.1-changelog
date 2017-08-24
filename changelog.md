@@ -48,9 +48,8 @@ A LOT of encapsulation to member functions, especially getting data from `info_b
 1. `void checkToUnsetAttacker(void)`
 1. `void publishNavXY(void)`
 1. `int updateCovered(void)`
-
-void setDestination(void);
-void setAngle(void);
+1. `void setDestination(void)`
+1. `void setAngle(void)`
 
 # Minor changes
 
