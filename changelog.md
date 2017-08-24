@@ -86,6 +86,9 @@ Changed SHORE_IP to be shoreside computer ip in:
 
 (Change IP back when testing shoreside on a different computer)
 
+Added `pPostMessage` block to `meta_heron.moos`.
+Added `ADD_DIRECTORY(pPostMessage)` line to `src/CMakeLists.txt`
+
 # Unfixed bugs:
 
 1. `m_attacker` is always `"none"` for any given game...
