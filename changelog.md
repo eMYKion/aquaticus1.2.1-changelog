@@ -50,7 +50,7 @@ Turned `STRICT_ADDRESSING` to `false` in `aquaticus1.2.1/plug_uFldMessageHandler
 
 A LOT of encapsulation to member functions, especially getting data from `info_buffer`, and managing the attacker (see list below). `onRunState()` is now much easier to read.
 	
-1. `int updateAllList(void)`
+1. ```c++ int updateAllList(void)```
 1. `int updateNavXY(void)`
 1. `int updateTaggedVehicleList(void)`
 1. `void findClosestUncoveredAttacker(void)`
